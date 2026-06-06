@@ -43,7 +43,7 @@ from kivy.utils import get_color_from_hex
 # Platform detection
 try:
     from android import activity
-    from android.permissions import request_permissions, Permission
+    from android.permissions import request_permissions, Permission#workkkk
     IS_ANDROID = True
 except ImportError:
     IS_ANDROID = False
